@@ -1,8 +1,8 @@
 # mclass_leitura_mockups
 
-A new Flutter project.
+Exercício da confecção dos mockups do curso da Masterclass 4 da flutterando
 
-## Getting Started
+## Telas Propostas
 
 This project is a starting point for a Flutter application.
 
