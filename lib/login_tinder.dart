@@ -1,7 +1,6 @@
-import 'dart:io' show Platform;
-
 import 'package:flutter/material.dart';
 import 'package:mclass_leitura_mockups/utils/color_palette.dart';
+import 'package:universal_platform/universal_platform.dart';
 
 import 'components/tinder_button.dart';
 
@@ -15,7 +14,8 @@ class LoginTinder extends StatelessWidget {
 
     double espaco_final_logo;
     double size_font;
-    if (Platform.isAndroid) {
+
+    if (UniversalPlatform.isAndroid) {
       print('is not a Mac');
       espaco_final_logo = 50;
       size_font = 12;
